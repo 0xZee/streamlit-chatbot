@@ -27,7 +27,7 @@ if "GROQ_API" in st.secrets:
 else:
     GROQ_API = st.sidebar.text_input("Groq API Key", type="password")
 if not GROQ_API:
-    st.info("Enter an OpenAI API Key to continue")
+    st.info("Enter an Groq API Key to continue (groq.com)")
     st.stop()
 
 st.sidebar.subheader("🤖 LLM Model", divider="violet")
