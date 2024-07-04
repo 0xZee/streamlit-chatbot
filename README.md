@@ -1,12 +1,11 @@
-# streamlit-chatbot
-# ChatBot with Conversation Memory : Streamlit App, `LangChain`, StreamlitChatMessageHistory, Groq API to : llama3, Mixtral, Gemma
+# 🤖 ChatBot with Conversation Memory : Streamlit App, `LangChain`, StreamlitChatMessageHistory, Groq API to : llama3, Mixtral, Gemma
 
 
 This repository contains an example of a Memero Conversational ChatBot (RAG) application built using `LangChain` and `Groq` Llama3. 
 
-## Components
+## 🛠️ Components
 
-1. **llama-index**:
+1. **LangChain**:
    - llama-index provides the core functionality for handling language models, prompts, and text processing.
    - We use the Llama3 LLM (Large Language Model) from llama-index for text generation.
 
