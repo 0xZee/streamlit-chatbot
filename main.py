@@ -46,7 +46,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 # llm and chain
-llm = ChatGroq(temperature=0.1, groq_api_key=GROQ_API, model_name=model_name)
+llm = ChatGroq(temperature=0.7, groq_api_key=GROQ_API, model_name=model_name)
 chain = prompt | llm
 chain_with_history = RunnableWithMessageHistory(
     chain,
