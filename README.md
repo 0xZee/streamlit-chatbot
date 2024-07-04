@@ -1,4 +1,4 @@
-# 🤖 ChatBot with Conversation Memory : Streamlit App, `LangChain`, StreamlitChatMessageHistory, Groq API to : llama3, Mixtral, Gemma
+# 🤖 ChatBot with Conversation Memory : Streamlit App, `LangChain`, StreamlitChatMessageHistory, `Groq API` to : llama3, Mixtral, Gemma
 
 
 This repository contains an example of a Memero Conversational ChatBot (RAG) application built using `LangChain` and `Groq` Llama3. 
